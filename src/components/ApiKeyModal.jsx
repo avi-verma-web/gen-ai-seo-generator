@@ -27,7 +27,7 @@ const ApiKeyModal = ({ isOpen, onClose, onSave, currentApiKey }) => {
 				</button>
 
 				<div className="flex items-center gap-3 mb-6">
-					<FaKey className="text-2xl text-blue-500" />
+					<FaKey className="text-2xl text-orange-500" />
 					<h2 className="text-2xl font-semibold">Cohere API Key</h2>
 				</div>
 
@@ -78,7 +78,7 @@ const ApiKeyModal = ({ isOpen, onClose, onSave, currentApiKey }) => {
 						</button>
 						<button
 							type="submit"
-							className="px-6 py-2 bg-blue-500 text-white rounded-lg hover:bg-blue-600 transition-colors"
+							className="px-6 py-2 bg-orange-500 text-white rounded-lg hover:bg-blue-600 transition-colors"
 						>
 							Save API Key
 						</button>
