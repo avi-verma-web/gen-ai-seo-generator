@@ -3,7 +3,7 @@ import { getAuth } from "firebase/auth";
 import { getFirestore } from "firebase/firestore";
 
 const firebaseConfig = {
-	apiKey: "AIzaSyAYNXIMZrsDaquIE_isKyMoRLbbREXBIpE",
+	apiKey: import.meta.env.VITE_FIREBASE_API_KEY,
 	authDomain: "avi-gen-ai-seo-generator.firebaseapp.com",
 	projectId: "avi-gen-ai-seo-generator",
 	storageBucket: "avi-gen-ai-seo-generator.firebasestorage.app",
