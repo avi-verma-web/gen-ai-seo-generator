@@ -10,6 +10,7 @@ function App() {
 				<Route path="/login" element={<Login></Login>}></Route>
 				<Route path="/landing" element={<Landing></Landing>}></Route>
 				<Route path="/dashboard" element={<Dashboard></Dashboard>}></Route>
+				<Route path="*" element={<Navigate to="/login" replace />} />
 			</Routes>
 		</BrowserRouter>
 	);
